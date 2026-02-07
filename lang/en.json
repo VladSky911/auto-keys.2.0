@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "title": "Car Key Emergency Service Munich | 24/7 Car Unlock & Key Service",
+    "description": "Emergency car unlocking, spare keys and key programming in Munich. 24/7 mobile service, fast arrival, transparent fixed prices."
+  },
+  "brand": {
+    "name": "AutoKluchi PRO"
+  },
+  "nav": {
+    "services": "Services",
+    "why": "Why us",
+    "process": "How it works",
+    "prices": "Prices",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "header": {
+    "callNow": "Call now"
+  },
+  "hero": {
+    "title": "Locked out of your car? We unlock any vehicle in Munich – 24/7.",
+    "subtitle": "Lost your car key, slammed the door or locked the keys in the boot? Our mobile car key service reaches you in Munich within about 20–40 minutes, opens your car without damage and, if needed, creates a new key on the spot.",
+    "bullet1": "24/7 emergency service in Munich & surroundings",
+    "bullet2": "Damage‑free car opening for all brands",
+    "bullet3": "Spare key cutting & programming on site",
+    "bullet4": "Transparent fixed prices with no hidden fees",
+    "ctaCall": "Call technician",
+    "ctaCallHint": "Direct line to emergency specialist",
+    "ctaRequest": "Request callback",
+    "meta": {
+      "time": "Response time: usually 20–40 minutes in Munich",
+      "area": "Service area: Munich & region"
+    },
+    "form": {
+      "title": "Quick request via form",
+      "text": "Briefly describe your situation – we will get back to you with a binding price and estimated arrival time."
+    }
+  },
+  "form": {
+    "name": "Name",
+    "phone": "Phone number",
+    "email": "E‑mail",
+    "location": "Location in Munich",
+    "car": "Vehicle (make/model/year)",
+    "problem": "What happened?",
+    "message": "Your message",
+    "time": "Preferred callback time",
+    "submit": "Request price & ETA",
+    "note": "By submitting you send us your request via e‑mail/WhatsApp. We will call you back or send you a message."
+  },
+  "services": {
+    "title": "Our car key services",
+    "subtitle": "We focus on professional vehicle opening as well as cutting, repairing and programming modern car keys – including transponders, remote controls and keyless systems.",
+    "emergency": {
+      "title": "24/7 emergency car opening",
+      "text": "Locked yourself out, keys inside or in the boot? In most cases we open your vehicle within a few minutes and completely without damage – regardless of brand, age or locking system.",
+      "li1": "Damage‑free opening of closed and locked car doors",
+      "li2": "Special tools instead of brute force – no door breaking",
+      "li3": "Help with frozen locks or faulty central locking"
+    },
+    "duplication": {
+      "title": "Spare keys & key duplication",
+      "text": "You only have one car key left or want a second one for your family? We cut the mechanical key and program the electronic components on site or in our workshop – often cheaper and faster than at a dealership.",
+      "li1": "Standard keys and flip keys",
+      "li2": "Transponder and immobilizer programming",
+      "li3": "Optional programming of the remote control"
+    },
+    "programming": {
+      "title": "Transponder & keyless‑go programming",
+      "text": "Modern vehicles are protected by complex immobilizer and keyless‑go systems. We read the relevant data, program new key carriers and synchronize them with your car’s control unit so you can start as usual again.",
+      "li1": "Coding of transponder chips",
+      "li2": "Programming remote and keyless‑go keys",
+      "li3": "Deleting lost keys from the system where possible"
+    },
+    "repair": {
+      "title": "Car key & ignition lock repair",
+      "text": "Not every faulty car key has to be replaced completely. Often the housing, buttons or electronics can be repaired. We also check faulty or blocked ignition locks and only replace them when really necessary.",
+      "li1": "Repair of housings, buttons and circuit boards",
+      "li2": "Ignition lock repair or replacement",
+      "li3": "Advice whether repair or replacement is more economical"
+    }
+  },
+  "why": {
+    "title": "Why choose AutoKluchi PRO",
+    "subtitle": "In an emergency you need both: fast help and a trustworthy service. We combine short response times with transparent prices and documented work.",
+    "b1": {
+      "title": "Fast arrival & real 24/7 availability",
+      "text": "Our emergency hotline is available day and night, including weekends and holidays. Within Munich we usually reach you in about 20–40 minutes, in the surrounding area shortly after that."
+    },
+    "b2": {
+      "title": "Transparent fixed prices",
+      "text": "You will receive a binding total price before you place the order, including call‑out and all agreed services. There are no surprise surcharges on site, so you stay in full control of your costs."
+    },
+    "b3": {
+      "title": "Specialized in vehicles",
+      "text": "Unlike general locksmiths we focus specifically on car keys and vehicle technology. Our technicians understand the specifics of immobilizers, steering locks and keyless systems for many different manufacturers."
+    },
+    "b4": {
+      "title": "Documentation & reliability",
+      "text": "Before opening we check your authorization, then document the job and provide an invoice with VAT on request. This keeps everything transparent for insurance companies, leasing providers and your own records."
+    }
+  },
+  "process": {
+    "title": "How a typical job works",
+    "subtitle": "From the first call to the opened door or finished spare key we follow a clear and transparent process.",
+    "s1": {
+      "title": "1. Get in touch",
+      "text": "Call us or send a request via the form. Tell us your location, vehicle type and briefly what happened. The more precise your information, the more accurate our quote and ETA."
+    },
+    "s2": {
+      "title": "2. Binding quote",
+      "text": "After a few questions you receive a fixed total price and a realistic arrival time. Only when you agree do we accept the job – there is no charge for a simple price enquiry."
+    },
+    "s3": {
+      "title": "3. Travel & identity check",
+      "text": "Our technician sets off immediately. On site they check your ID and vehicle documents to verify authorization. This is a standard safety step with any reputable car key service."
+    },
+    "s4": {
+      "title": "4. Opening & key creation if needed",
+      "text": "We open your vehicle using professional tools and procedures without damaging paintwork or seals. If required we then cut and program a new key so that you are protected against similar incidents in future."
+    },
+    "s5": {
+      "title": "5. Payment & documentation",
+      "text": "You pay the agreed fixed price in cash, by card or – if agreed in advance – by invoice. You receive a detailed breakdown which you can submit to your insurer or employer."
+    }
+  },
+  "prices": {
+    "title": "Fair, understandable pricing",
+    "subtitle": "Every situation is different but our price ranges are clear. You always know your final price in advance.",
+    "p1": {
+      "title": "Car opening within Munich",
+      "value": "from 89 € incl. call‑out",
+      "text": "For closed or locked vehicle doors with normal difficulty in the Munich city area. The exact price depends on vehicle type, time of day and distance."
+    },
+    "p2": {
+      "title": "Spare key with transponder",
+      "value": "from 149 €",
+      "text": "Including cutting and immobilizer programming. Remote and keyless‑go functions can often be added depending on the model."
+    },
+    "p3": {
+      "title": "Complete loss of all keys",
+      "value": "price on request",
+      "text": "When all keys are lost the effort is higher. We provide a tailored quote covering everything from opening to full re‑programming."
+    },
+    "note": "Many comprehensive insurance policies cover part of the costs for car opening or key replacement. We provide detailed documentation on request."
+  },
+  "slider": {
+    "title": "Typical situations we solve",
+    "subtitle": "Real‑world stories we encounter every day – usually resolved within a single visit.",
+    "s1": "Keys locked in the boot after loading shopping or luggage.",
+    "s2": "Vehicle auto‑locks while the engine is running and the key is inside.",
+    "s3": "Key lost during a walk in the park, spare key far away at home.",
+    "s4": "Keyless‑go suddenly stops working, car no longer responds to the signal.",
+    "s5": "Broken key in the door or ignition, unable to turn or start the vehicle."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "We answer common questions in detail so you know exactly what to expect before you call.",
+    "q1": {
+      "q": "Can you really open my car without damage?",
+      "a": "In the vast majority of cases yes. We use specialized tools that work directly on the locking mechanism rather than forcing the door. For very old, modified or heavily damaged locks we will explain any remaining risks before we start."
+    },
+    "q2": {
+      "q": "Which documents do I need?",
+      "a": "We usually require a valid ID and the vehicle registration. If your documents are locked inside, we first open the car and then check them. Without proof of authorization we do not open vehicles."
+    },
+    "q3": {
+      "q": "How are the costs calculated?",
+      "a": "The total price consists of travel, working time, difficulty of the opening and possible material and programming costs for new keys. Night, weekend and holiday surcharges apply only if your job falls into these times."
+    },
+    "q4": {
+      "q": "Can you open any vehicle?",
+      "a": "We deal with a wide range of cars every day, from compact cars to vans and premium vehicles. For rare imports or special conversions we check in advance whether we have the right tools – in most cases we do."
+    },
+    "q5": {
+      "q": "Will my insurance pay for this?",
+      "a": "That depends on your policy. Many partial or full comprehensive policies cover part of the costs for key loss or car opening. We provide a detailed invoice so you can submit a claim."
+    }
+  },
+  "contact": {
+    "title": "Contact & service area",
+    "subtitle": "Whether you are in central Munich, on the motorway or in the outskirts – call us and we will tell you how soon we can reach you.",
+    "phoneTitle": "24/7 emergency phone",
+    "phoneText": "Please have your license plate, exact location and a short description of the issue ready. This helps us to respond faster.",
+    "areaTitle": "Munich & surrounding region",
+    "areaText": "We cover the entire Munich city area and nearby towns such as Garching, Unterschleißheim, Dachau, Germering, Grünwald, Ottobrunn and more. Just ask if we can reach your location.",
+    "formTitle": "Send us a message",
+    "submit": "Send message",
+    "note": "We usually respond within a short time. In urgent emergencies please always call."
+  },
+  "modal": {
+    "title": "Request a callback",
+    "text": "Leave your contact details and we will call you back as soon as possible – usually within a few minutes during emergencies.",
+    "submit": "Request callback"
+  },
+  "footer": {
+    "text": "Your specialized partner for car opening, spare keys and car key programming in Munich. Available around the clock – reliable, transparent and detail‑oriented.",
+    "linksTitle": "Shortcuts",
+    "legalTitle": "Legal",
+    "imprint": "Imprint",
+    "privacy": "Privacy policy",
+    "madeIn": "Car key emergency service in Munich"
+  }
+}

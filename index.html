@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.title">
+      Autoschlüssel Notdienst München | 24/7 Autoöffnung & Schlüsselservice
+    </title>
+    <meta
+      name="description"
+      data-i18n="meta.description"
+      content="Aварийное вскрытие автомобилей, Nachmachen und Programmierung von Autoschlüsseln in München. 24/7 Notdienst, schnelle Anfahrt, transparente Festpreise."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__inner">
+        <div class="logo">
+          <span class="logo__icon">🔑</span>
+          <span class="logo__text" data-i18n="brand.name">AutoKluchi PRO</span>
+        </div>
+
+        <nav class="nav">
+          <a href="#services" class="nav__link" data-i18n="nav.services"
+            >Leistungen</a
+          >
+          <a href="#why" class="nav__link" data-i18n="nav.why">Warum wir</a>
+          <a href="#process" class="nav__link" data-i18n="nav.process"
+            >Ablauf</a
+          >
+          <a href="#prices" class="nav__link" data-i18n="nav.prices">Preise</a>
+          <a href="#faq" class="nav__link" data-i18n="nav.faq">FAQ</a>
+          <a href="#contact" class="nav__link" data-i18n="nav.contact"
+            >Kontakt</a
+          >
+        </nav>
+
+        <div class="lang-switcher">
+          <button class="lang-switcher__btn" data-lang="de">DE</button>
+          <button class="lang-switcher__btn" data-lang="ru">RU</button>
+          <button class="lang-switcher__btn" data-lang="en">EN</button>
+        </div>
+
+        <a href="tel:+498912345678" class="header__cta">
+          <span data-i18n="header.callNow">Jetzt anrufen</span>
+          <span class="header__phone">+49 89 123 45 678</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero hero__bg" id="top">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title" data-i18n="hero.title">
+            Aus dem Auto ausgesperrt? Wir öffnen jedes Fahrzeug in München –
+            24/7.
+          </h1>
+          <p class="hero__subtitle" data-i18n="hero.subtitle">
+            Autoschlüssel verloren, zugeschlagen oder im Kofferraum liegen
+            gelassen? Unser mobiler Autoschlüssel-Notdienst kommt im Raum
+            München in 20–40 Minuten zu Ihnen, öffnet Ihr Fahrzeug
+            beschädigungsfrei und fertigt bei Bedarf sofort einen neuen
+            Schlüssel.
+          </p>
+
+          <ul class="hero__bullets">
+            <li data-i18n="hero.bullet1">24/7 Notdienst in München & Umland</li>
+            <li data-i18n="hero.bullet2">
+              Beschädigungsfreie Autoöffnung aller Marken
+            </li>
+            <li data-i18n="hero.bullet3">
+              Ersatzschlüssel & Transponder-Programmierung vor Ort
+            </li>
+            <li data-i18n="hero.bullet4">
+              Transparente Festpreise ohne versteckte Kosten
+            </li>
+          </ul>
+
+          <div class="hero__actions">
+            <a href="tel:+498912345678" class="btn btn--primary">
+              <span data-i18n="hero.ctaCall">Sofort anrufen</span>
+              <span class="btn__hint" data-i18n="hero.ctaCallHint"
+                >Durchwahl zum Notdienst-Techniker</span
+              >
+            </a>
+            <button
+              class="btn btn--secondary js-open-modal"
+              data-i18n="hero.ctaRequest"
+            >
+              Rückruf anfordern
+            </button>
+          </div>
+
+          <div class="hero__meta">
+            <div class="hero__meta-item">
+              <img src="assets/icons/clock.svg" alt="" class="hero__icon" />
+              <span data-i18n="hero.meta.time"
+                >Reaktionszeit: meist 20–40 Minuten in München</span
+              >
+            </div>
+            <div class="hero__meta-item">
+              <img src="assets/icons/location.svg" alt="" class="hero__icon" />
+              <span data-i18n="hero.meta.area"
+                >Einsatzgebiet: München & Umgebung</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__form-card">
+          <h2 class="hero__form-title" data-i18n="hero.form.title">
+            Schnelle Anfrage per Formular
+          </h2>
+          <p class="hero__form-text" data-i18n="hero.form.text">
+            Beschreiben Sie kurz Ihr Problem – wir melden uns in wenigen Minuten
+            mit einem verbindlichen Preis und einer Ankunftszeit.
+          </p>
+          <form class="form" id="hero-form">
+            <label class="form__group">
+              <span data-i18n="form.name">Name</span>
+              <input
+                type="text"
+                name="name"
+                placeholder="Max Mustermann"
+                required
+              />
+            </label>
+            <label class="form__group">
+              <span data-i18n="form.phone">Telefonnummer</span>
+              <input type="tel" name="phone" placeholder="+49 ..." required />
+            </label>
+            <label class="form__group">
+              <span data-i18n="form.location">Standort in München</span>
+              <input
+                type="text"
+                name="location"
+                placeholder="z.B. Schwabing, PLZ 80802"
+                required
+              />
+            </label>
+            <label class="form__group">
+              <span data-i18n="form.car">Fahrzeug (Marke/Modell/Baujahr)</span>
+              <input type="text" name="car" placeholder="BMW 3er, 2018" />
+            </label>
+            <label class="form__group">
+              <span data-i18n="form.problem">Was ist passiert?</span>
+              <textarea
+                name="problem"
+                rows="3"
+                placeholder="Schlüssel im Auto, Tür verriegelt ..."
+                required
+              ></textarea>
+            </label>
+            <button
+              type="submit"
+              class="btn btn--primary btn--full"
+              data-i18n="form.submit"
+            >
+              Preis & Anfahrtszeit anfragen
+            </button>
+            <p class="form__note" data-i18n="form.note">
+              Durch Anklicken senden Sie uns Ihre Anfrage per E‑Mail/WhatsApp.
+              Wir rufen Sie zurück oder schreiben Ihnen eine Nachricht.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section__title" data-i18n="services.title">
+          Unsere Leistungen rund um Autoschlüssel
+        </h2>
+        <p class="section__subtitle" data-i18n="services.subtitle">
+          Wir sind spezialisiert auf die professionelle Öffnung von Fahrzeugen
+          sowie auf das Nachmachen, Reparieren und Programmieren moderner
+          Autoschlüssel – inklusive Transponder, Funkfernbedienung und
+          Keyless-Systemen.
+        </p>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <img
+              src="assets/icons/emergency.svg"
+              alt=""
+              class="service-card__icon"
+            />
+            <h3
+              class="service-card__title"
+              data-i18n="services.emergency.title"
+            >
+              24/7 Notöffnung von Fahrzeugen
+            </h3>
+            <p class="service-card__text" data-i18n="services.emergency.text">
+              Sie haben sich aus Ihrem Auto ausgesperrt, der Schlüssel steckt
+              innen oder liegt im Kofferraum? Wir öffnen Ihr Fahrzeug in den
+              meisten Fällen innerhalb weniger Minuten und in über 90&nbsp;% der
+              Einsätze vollständig beschädigungsfrei – unabhängig von Marke,
+              Baujahr und Schloss-System.
+            </p>
+            <ul class="service-card__list">
+              <li data-i18n="services.emergency.li1">
+                Beschädigungsfreie Öffnung zugefallener und verriegelter
+                Autotüren
+              </li>
+              <li data-i18n="services.emergency.li2">
+                Spezialwerkzeug statt rohe Gewalt – kein Aufbrechen von Türen
+              </li>
+              <li data-i18n="services.emergency.li3">
+                Auch bei zugefrorenen Schlössern oder defekter
+                Zentralverriegelung
+              </li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <img src="assets/icons/key.svg" alt="" class="service-card__icon" />
+            <h3
+              class="service-card__title"
+              data-i18n="services.duplication.title"
+            >
+              Ersatzschlüssel & Nachmachen von Autoschlüsseln
+            </h3>
+            <p class="service-card__text" data-i18n="services.duplication.text">
+              Sie möchten einen zweiten Autoschlüssel, weil Sie nur noch ein
+              Exemplar besitzen oder das Fahrzeug in der Familie geteilt wird?
+              Wir fertigen mechanische Rohlinge und codieren elektronische
+              Komponenten direkt vor Ort oder in unserer Werkstatt – oft
+              deutlich günstiger als beim Vertragshändler.
+            </p>
+            <ul class="service-card__list">
+              <li data-i18n="services.duplication.li1">
+                Nachmachen von Standard- und Klappschlüsseln
+              </li>
+              <li data-i18n="services.duplication.li2">
+                Programmierung von Transpondern und Wegfahrsperren
+              </li>
+              <li data-i18n="services.duplication.li3">
+                Optional Programmierung der Funkfernbedienung
+              </li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <img
+              src="assets/icons/chip.svg"
+              alt=""
+              class="service-card__icon"
+            />
+            <h3
+              class="service-card__title"
+              data-i18n="services.programming.title"
+            >
+              Transponder- & Keyless‑Go‑Programmierung
+            </h3>
+            <p class="service-card__text" data-i18n="services.programming.text">
+              Moderne Fahrzeuge sind mit komplexen Wegfahrsperren und
+              Keyless‑Go‑Systemen ausgestattet. Wir lesen die relevanten Daten
+              aus, programmieren neue oder gebrauchte Schlüsselträger und
+              synchronisieren sie mit dem Steuergerät Ihres Fahrzeugs, damit Sie
+              das Auto wieder wie gewohnt starten können.
+            </p>
+            <ul class="service-card__list">
+              <li data-i18n="services.programming.li1">
+                Codierung von Transponderchips
+              </li>
+              <li data-i18n="services.programming.li2">
+                Anlernen von Funk- und Keyless‑Go‑Schlüsseln
+              </li>
+              <li data-i18n="services.programming.li3">
+                Löschen verlorener Schlüssel aus dem System (soweit möglich)
+              </li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <img
+              src="assets/icons/repair.svg"
+              alt=""
+              class="service-card__icon"
+            />
+            <h3 class="service-card__title" data-i18n="services.repair.title">
+              Reparatur defekter Autoschlüssel & Zündschlösser
+            </h3>
+            <p class="service-card__text" data-i18n="services.repair.text">
+              Nicht jeder defekte Autoschlüssel muss sofort komplett ersetzt
+              werden. Häufig lassen sich Gehäuse, Taster und Elektronik instand
+              setzen. Auch bei hakenden oder blockierten Zündschlössern prüfen
+              wir, ob eine Reparatur möglich ist, bevor über einen Austausch
+              entschieden wird.
+            </p>
+            <ul class="service-card__list">
+              <li data-i18n="services.repair.li1">
+                Instandsetzung von Gehäuse, Knöpfen und Lötstellen
+              </li>
+              <li data-i18n="services.repair.li2">
+                Reparatur oder Austausch von Zündschlössern
+              </li>
+              <li data-i18n="services.repair.li3">
+                Beratung, ob Reparatur oder Neuanfertigung wirtschaftlicher ist
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why us -->
+    <section class="section section--grey" id="why">
+      <div class="container">
+        <h2 class="section__title" data-i18n="why.title">
+          Warum AutoKluchi PRO in München?
+        </h2>
+        <p class="section__subtitle" data-i18n="why.subtitle">
+          In Notfallsituationen zählt jede Minute – gleichzeitig möchten Sie
+          keinen überteuerten oder unseriösen Dienst beauftragen. Wir
+          kombinieren schnelle Reaktionszeiten mit transparenten Preisen und
+          sauberer, dokumentierter Arbeit.
+        </p>
+
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <h3 class="benefit-item__title" data-i18n="why.b1.title">
+              Schnelle Anfahrt & echte 24/7‑Bereitschaft
+            </h3>
+            <p class="benefit-item__text" data-i18n="why.b1.text">
+              Unser Notdienst ist rund um die Uhr erreichbar – auch nachts, an
+              Wochenenden und Feiertagen. In der Regel sind wir im Stadtgebiet
+              München in 20–40 Minuten bei Ihnen vor Ort, im Umland nur wenig
+              später. Während Sie noch telefonieren, machen wir uns bereits auf
+              den Weg.
+            </p>
+          </div>
+          <div class="benefit-item">
+            <h3 class="benefit-item__title" data-i18n="why.b2.title">
+              Transparente Festpreise ohne Lockangebote
+            </h3>
+            <p class="benefit-item__text" data-i18n="why.b2.text">
+              Sie erfahren vor Auftragserteilung einen verbindlichen
+              Gesamtpreis, der Anfahrt, Öffnung und alle vereinbarten Leistungen
+              umfasst. Es gibt keine versteckten Zuschläge vor Ort. So behalten
+              Sie die volle Kostenkontrolle – noch bevor wir Ihr Fahrzeug
+              öffnen.
+            </p>
+          </div>
+          <div class="benefit-item">
+            <h3 class="benefit-item__title" data-i18n="why.b3.title">
+              Spezialisierung auf Fahrzeuge
+            </h3>
+            <p class="benefit-item__text" data-i18n="why.b3.text">
+              Im Gegensatz zu allgemeinen Schlüsseldiensten konzentrieren wir
+              uns auf Autoschlüssel und Fahrzeugtechnik. Unsere Techniker kennen
+              die Besonderheiten moderner Wegfahrsperren, elektronischer
+              Lenkradschlösser und Keyless-Systeme verschiedenster Hersteller –
+              von Kleinwagen bis Premiumklasse.
+            </p>
+          </div>
+          <div class="benefit-item">
+            <h3 class="benefit-item__title" data-i18n="why.b4.title">
+              Dokumentation & Seriösität
+            </h3>
+            <p class="benefit-item__text" data-i18n="why.b4.text">
+              Vor der Öffnung prüfen wir die Berechtigung (z. B. Ausweis und
+              Fahrzeugschein), dokumentieren den Einsatz und stellen Ihnen auf
+              Wunsch eine Rechnung mit ausgewiesener Mehrwertsteuer aus. Damit
+              sind Sie auch gegenüber Versicherung und Leasinggeber auf der
+              sicheren Seite.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section" id="process">
+      <div class="container">
+        <h2 class="section__title" data-i18n="process.title">
+          So läuft ein Einsatz ab
+        </h2>
+        <p class="section__subtitle" data-i18n="process.subtitle">
+          Unser Ziel ist es, Stress aus Ihrer Notsituation zu nehmen. Vom ersten
+          Anruf bis zur geöffneten Tür oder zum fertigen Ersatzschlüssel folgen
+          wir einem klaren, transparenten Ablauf.
+        </p>
+
+        <ol class="steps">
+          <li class="steps__item">
+            <h3 class="steps__title" data-i18n="process.s1.title">
+              1. Kontaktaufnahme
+            </h3>
+            <p class="steps__text" data-i18n="process.s1.text">
+              Sie rufen uns an oder senden eine Anfrage über das Formular.
+              Teilen Sie uns Ihren Standort, Fahrzeugtyp und kurz den
+              Sachverhalt mit (z. B. Schlüssel im Auto, komplett verloren,
+              Zündschloss defekt). Je genauer Ihre Angaben sind, desto präziser
+              können wir den Preis und die Anfahrtszeit nennen.
+            </p>
+          </li>
+          <li class="steps__item">
+            <h3 class="steps__title" data-i18n="process.s2.title">
+              2. Verbindliches Angebot
+            </h3>
+            <p class="steps__text" data-i18n="process.s2.text">
+              Nach wenigen Rückfragen erhalten Sie einen verbindlichen Festpreis
+              inklusive aller Kosten sowie eine realistische Einschätzung der
+              Ankunftszeit. Erst wenn Sie ausdrücklich zustimmen, wird der
+              Auftrag angenommen – es entstehen keine Kosten für eine reine
+              Preisanfrage.
+            </p>
+          </li>
+          <li class="steps__item">
+            <h3 class="steps__title" data-i18n="process.s3.title">
+              3. Anfahrt & Identitätsprüfung
+            </h3>
+            <p class="steps__text" data-i18n="process.s3.text">
+              Unser Techniker macht sich sofort auf den Weg. Vor Ort prüft er
+              Ihre Ausweisdokumente und die Zugehörigkeit zum Fahrzeug. Diese
+              Sicherheitsmaßnahme schützt sowohl Sie als auch Dritte und ist bei
+              seriösen Diensten selbstverständlich.
+            </p>
+          </li>
+          <li class="steps__item">
+            <h3 class="steps__title" data-i18n="process.s4.title">
+              4. Öffnung & ggf. Schlüsselanfertigung
+            </h3>
+            <p class="steps__text" data-i18n="process.s4.text">
+              Wir öffnen Ihr Fahrzeug mit speziellem Werkzeug und technischen
+              Verfahren, ohne Lack und Dichtungen zu beschädigen. Falls
+              gewünscht, fertigen oder programmieren wir im Anschluss direkt
+              einen neuen Schlüssel, damit Sie nicht erneut in eine ähnliche
+              Situation geraten.
+            </p>
+          </li>
+          <li class="steps__item">
+            <h3 class="steps__title" data-i18n="process.s5.title">
+              5. Bezahlung & Dokumentation
+            </h3>
+            <p class="steps__text" data-i18n="process.s5.text">
+              Sie zahlen den vereinbarten Festpreis bequem in bar, per Karte
+              oder – nach vorheriger Absprache – per Rechnung. Sie erhalten eine
+              detaillierte Leistungsübersicht, die Sie bei Bedarf Ihrer
+              Versicherung oder Ihrem Arbeitgeber vorlegen können.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Price teaser -->
+    <section class="section section--accent" id="prices">
+      <div class="container">
+        <h2 class="section__title" data-i18n="prices.title">
+          Faire, nachvollziehbare Preise
+        </h2>
+        <p class="section__subtitle" data-i18n="prices.subtitle">
+          Jede Situation ist anders – dennoch arbeiten wir mit klaren
+          Preisrahmen. Sie kennen Ihren Endpreis immer vorab. Nacht-, Wochenend-
+          und Feiertagszuschläge kommunizieren wir transparent am Telefon.
+        </p>
+
+        <div class="price-grid">
+          <div class="price-card">
+            <h3 class="price-card__title" data-i18n="prices.p1.title">
+              Autoöffnung im Stadtgebiet München
+            </h3>
+            <p class="price-card__value" data-i18n="prices.p1.value">
+              ab 89&nbsp;€ inkl. Anfahrt
+            </p>
+            <p class="price-card__text" data-i18n="prices.p1.text">
+              Für zugefallene oder verriegelte Fahrzeugtüren bei normalem
+              Schwierigkeitsgrad im Stadtgebiet München. Der genaue Preis
+              richtet sich nach Fahrzeugtyp, Uhrzeit und Entfernung.
+            </p>
+          </div>
+          <div class="price-card">
+            <h3 class="price-card__title" data-i18n="prices.p2.title">
+              Ersatzschlüssel mit Transponder
+            </h3>
+            <p class="price-card__value" data-i18n="prices.p2.value">
+              ab 149&nbsp;€
+            </p>
+            <p class="price-card__text" data-i18n="prices.p2.text">
+              Inklusive Fräsen des Schlüssels und Programmierung der
+              Wegfahrsperre. Funk- oder Keyless‑Go‑Funktionen können je nach
+              Modell zusätzlich programmiert werden.
+            </p>
+          </div>
+          <div class="price-card">
+            <h3 class="price-card__title" data-i18n="prices.p3.title">
+              Kompletter Schlüsselverlust
+            </h3>
+            <p class="price-card__value" data-i18n="prices.p3.value">
+              Preis auf Anfrage
+            </p>
+            <p class="price-card__text" data-i18n="prices.p3.text">
+              Bei komplettem Verlust aller Schlüssel ist der Aufwand deutlich
+              höher. Wir erstellen Ihnen ein individuelles Angebot, das alle
+              Schritte von der Öffnung bis zur Neuprogrammierung abdeckt.
+            </p>
+          </div>
+        </div>
+
+        <p class="prices__note" data-i18n="prices.note">
+          Hinweis: Viele Kasko‑ oder Teilkasko‑Versicherungen übernehmen je nach
+          Vertrag einen Teil der Kosten für Schlüsselverlust oder
+          Fahrzeugöffnung. Auf Wunsch unterstützen wir Sie mit einer
+          detaillierten Einsatzdokumentation.
+        </p>
+      </div>
+    </section>
+
+    <!-- Slider: brands / situations -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title" data-i18n="slider.title">
+          Typische Situationen, in denen wir helfen
+        </h2>
+        <p class="section__subtitle" data-i18n="slider.subtitle">
+          Aus der Praxis kennen wir zahlreiche Alltagssituationen, in denen
+          Autobesitzer plötzlich nicht mehr an ihr Fahrzeug kommen. In all
+          diesen Fällen sind wir regelmäßig im Einsatz.
+        </p>
+
+        <div class="slider js-slider">
+          <div class="slider__track">
+            <div class="slider__item" data-i18n="slider.s1">
+              Schlüssel im Kofferraum eingeschlossen – besonders häufig nach dem
+              Beladen von Einkaufstüten oder Reisegepäck.
+            </div>
+            <div class="slider__item" data-i18n="slider.s2">
+              Fahrzeug verriegelt sich automatisch, während der Motor läuft und
+              der Schlüssel im Innenraum steckt.
+            </div>
+            <div class="slider__item" data-i18n="slider.s3">
+              Schlüssel fällt in den Gully oder geht beim Spaziergang im Park
+              verloren – der Wagen steht kilometerweit entfernt.
+            </div>
+            <div class="slider__item" data-i18n="slider.s4">
+              Elektronik des Keyless‑Go‑Schlüssels fällt plötzlich aus, das Auto
+              reagiert nicht mehr auf das Signal.
+            </div>
+            <div class="slider__item" data-i18n="slider.s5">
+              Abgebrochener Schlüssel im Türschloss oder Zündschloss, das
+              Fahrzeug lässt sich nicht mehr starten.
+            </div>
+          </div>
+          <button class="slider__arrow slider__arrow--prev js-slider-prev">
+            ‹
+          </button>
+          <button class="slider__arrow slider__arrow--next js-slider-next">
+            ›
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--grey" id="faq">
+      <div class="container">
+        <h2 class="section__title" data-i18n="faq.title">
+          Häufige Fragen zu Autoöffnung & Autoschlüsseln
+        </h2>
+        <p class="section__subtitle" data-i18n="faq.subtitle">
+          Transparenz ist uns wichtig. Deshalb beantworten wir häufige Fragen so
+          ausführlich, dass Sie unser Vorgehen und unsere Preise nachvollziehen
+          können – noch bevor Sie uns beauftragen.
+        </p>
+
+        <div class="faq">
+          <details class="faq__item" open>
+            <summary class="faq__question" data-i18n="faq.q1.q">
+              Kann mein Auto wirklich beschädigungsfrei geöffnet werden?
+            </summary>
+            <div class="faq__answer" data-i18n="faq.q1.a">
+              In der großen Mehrzahl der Einsätze öffnen wir Fahrzeuge
+              vollständig beschädigungsfrei. Wir arbeiten mit Spezialwerkzeug,
+              das gezielt an Verriegelung und Mechanik ansetzt, ohne Lack,
+              Dichtungen oder Scheiben zu beeinträchtigen. Bei sehr alten, stark
+              beschädigten oder nachgerüsteten Schlössern kann es Ausnahmen
+              geben – diese sprechen wir vor Beginn der Arbeiten mit Ihnen
+              durch, damit Sie nicht überrascht werden.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question" data-i18n="faq.q2.q">
+              Welche Unterlagen muss ich vorlegen?
+            </summary>
+            <div class="faq__answer" data-i18n="faq.q2.a">
+              Vor der Öffnung müssen wir prüfen, ob Sie berechtigt sind, das
+              Fahrzeug öffnen zu lassen. In der Praxis genügt ein gültiger
+              Ausweis in Kombination mit dem Fahrzeugschein. Wenn sich die
+              Papiere im Fahrzeug befinden, öffnen wir zunächst das Auto und
+              kontrollieren im Anschluss die Dokumente. Diese Vorgehensweise ist
+              Standard bei seriösen Autoschlüssel-Notdiensten.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question" data-i18n="faq.q3.q">
+              Wie setzen sich die Kosten zusammen?
+            </summary>
+            <div class="faq__answer" data-i18n="faq.q3.a">
+              Der Gesamtpreis ergibt sich aus Anfahrt, Arbeitszeit und dem
+              Schwierigkeitsgrad der Öffnung sowie ggf. Material- und
+              Programmierkosten für neue Schlüssel. Nacht‑, Wochenend- und
+              Feiertagszuschläge berechnen wir nur, wenn der Einsatz tatsächlich
+              in diesen Zeiten stattfindet. Sie erhalten vorab ein
+              Gesamtangebot, das alle diese Faktoren berücksichtigt, damit Sie
+              Ihre Entscheidung in Ruhe treffen können.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question" data-i18n="faq.q4.q">
+              Können Sie jeden Fahrzeugtyp öffnen?
+            </summary>
+            <div class="faq__answer" data-i18n="faq.q4.a">
+              Wir arbeiten täglich mit einer großen Bandbreite an Fahrzeugen –
+              vom Kleinwagen über Transporter bis hin zu Premiumfahrzeugen
+              deutscher und internationaler Hersteller. Bei sehr seltenen
+              Importmodellen oder Spezialumbauten prüfen wir vorab, ob wir das
+              passende Werkzeug und Know‑how mitbringen. In den meisten Fällen
+              können wir jedoch auch diese Fahrzeuge sicher öffnen.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question" data-i18n="faq.q5.q">
+              Übernimmt meine Versicherung die Kosten?
+            </summary>
+            <div class="faq__answer" data-i18n="faq.q5.a">
+              Viele Teilkasko‑ oder Kasko‑Tarife sehen eine Beteiligung an
+              Kosten für Schlüsselverlust oder Fahrzeugöffnung vor. Die genauen
+              Bedingungen hängen von Ihrem Vertrag ab. Sie erhalten von uns eine
+              detaillierte Rechnung, die Sie bei Ihrer Versicherung einreichen
+              können. Gerne unterstützen wir Sie dabei, die relevanten
+              Positionen verständlich zu dokumentieren.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__info">
+          <h2 class="section__title" data-i18n="contact.title">
+            Kontakt & Einsatzgebiet
+          </h2>
+          <p class="section__subtitle" data-i18n="contact.subtitle">
+            Egal ob Sie gerade in der Münchner Innenstadt, am Stadtrand oder auf
+            der Durchreise sind – rufen Sie uns an. Wir sagen Ihnen sofort, wie
+            schnell wir vor Ort sein können.
+          </p>
+
+          <div class="contact__block">
+            <h3 class="contact__heading" data-i18n="contact.phoneTitle">
+              24/7 Notrufnummer
+            </h3>
+            <a href="tel:+498912345678" class="contact__phone"
+              >+49 89 123 45 678</a
+            >
+            <p class="contact__text" data-i18n="contact.phoneText">
+              Bitte halten Sie Ihr Kennzeichen, den genauen Standort und eine
+              kurze Beschreibung des Problems bereit. So können wir Ihre Anfrage
+              sofort zuordnen.
+            </p>
+          </div>
+
+          <div class="contact__block">
+            <h3 class="contact__heading" data-i18n="contact.areaTitle">
+              Einsatzgebiet München & Region
+            </h3>
+            <p class="contact__text" data-i18n="contact.areaText">
+              Wir sind im gesamten Stadtgebiet München sowie im Umland
+              unterwegs, z. B. in Garching, Unterschleißheim, Dachau, Germering,
+              Grünwald, Ottobrunn und weiteren Orten. Fragen Sie einfach an –
+              wir sagen Ihnen, ob wir Ihren Standort kurzfristig bedienen
+              können.
+            </p>
+          </div>
+        </div>
+
+        <div class="contact__form-wrapper">
+          <h3 class="contact__form-title" data-i18n="contact.formTitle">
+            Schreiben Sie uns eine Nachricht
+          </h3>
+          <form class="form" id="contact-form">
+            <label class="form__group">
+              <span data-i18n="form.name">Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label class="form__group">
+              <span data-i18n="form.email">E‑Mail</span>
+              <input type="email" name="email" />
+            </label>
+            <label class="form__group">
+              <span data-i18n="form.phone">Telefonnummer</span>
+              <input type="tel" name="phone" required />
+            </label>
+            <label class="form__group">
+              <span data-i18n="form.message">Ihre Nachricht</span>
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button
+              type="submit"
+              class="btn btn--primary btn--full"
+              data-i18n="contact.submit"
+            >
+              Nachricht senden
+            </button>
+            <p class="form__note" data-i18n="contact.note">
+              Wir melden uns in der Regel innerhalb kurzer Zeit, bei Notfällen
+              rufen Sie bitte immer direkt an.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__col">
+          <div class="logo">
+            <span class="logo__icon">🔑</span>
+            <span class="logo__text">AutoKluchi PRO</span>
+          </div>
+          <p class="footer__text" data-i18n="footer.text">
+            Ihr spezialisierter Partner für Autoöffnung, Ersatzschlüssel und
+            Autoschlüssel-Programmierung in München. Rund um die Uhr für Sie im
+            Einsatz – zuverlässig, transparent und mit Blick für Details.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading" data-i18n="footer.linksTitle">
+            Schnellzugriff
+          </h3>
+          <ul class="footer__links">
+            <li><a href="#services" data-i18n="nav.services">Leistungen</a></li>
+            <li><a href="#prices" data-i18n="nav.prices">Preise</a></li>
+            <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading" data-i18n="footer.legalTitle">
+            Rechtliches
+          </h3>
+          <ul class="footer__links">
+            <li><a href="#" data-i18n="footer.imprint">Impressum</a></li>
+            <li>
+              <a href="#" data-i18n="footer.privacy">Datenschutzerklärung</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container footer__bottom-inner">
+          <span>© <span id="year"></span> AutoKluchi PRO</span>
+          <span data-i18n="footer.madeIn"
+            >Autoschlüssel-Notdienst in München</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="callback-modal" aria-hidden="true">
+      <div class="modal__backdrop js-close-modal"></div>
+      <div class="modal__content">
+        <button class="modal__close js-close-modal">×</button>
+        <h3 class="modal__title" data-i18n="modal.title">Rückruf anfordern</h3>
+        <p class="modal__text" data-i18n="modal.text">
+          Hinterlassen Sie Ihre Kontaktdaten, wir rufen Sie so schnell wie
+          möglich zurück – bei Notfällen in der Regel innerhalb weniger Minuten.
+        </p>
+        <form class="form" id="modal-form">
+          <label class="form__group">
+            <span data-i18n="form.name">Name</span>
+            <input type="text" name="name" required />
+          </label>
+          <label class="form__group">
+            <span data-i18n="form.phone">Telefonnummer</span>
+            <input type="tel" name="phone" required />
+          </label>
+          <label class="form__group">
+            <span data-i18n="form.time">Bevorzugte Rückrufzeit</span>
+            <input
+              type="text"
+              name="time"
+              placeholder="z. B. sofort, zwischen 18–20 Uhr"
+            />
+          </label>
+          <button
+            type="submit"
+            class="btn btn--primary btn--full"
+            data-i18n="modal.submit"
+          >
+            Rückruf anfordern
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "title": "Autoschlüssel Notdienst München | 24/7 Autoöffnung & Schlüsselservice",
+    "description": "Aварийное вскрытие von Fahrzeugen, Nachmachen und Programmierung von Autoschlüsseln in München. 24/7 Notdienst, schnelle Anfahrt, transparente Festpreise."
+  },
+  "brand": {
+    "name": "AutoKluchi PRO"
+  },
+  "nav": {
+    "services": "Leistungen",
+    "why": "Warum wir",
+    "process": "Ablauf",
+    "prices": "Preise",
+    "faq": "FAQ",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "callNow": "Jetzt anrufen"
+  },
+  "hero": {
+    "title": "Aus dem Auto ausgesperrt? Wir öffnen jedes Fahrzeug in München – 24/7.",
+    "subtitle": "Autoschlüssel verloren, zugeschlagen oder im Kofferraum liegen gelassen? Unser mobiler Autoschlüssel-Notdienst kommt im Raum München in 20–40 Minuten zu Ihnen, öffnet Ihr Fahrzeug beschädigungsfrei und fertigt bei Bedarf sofort einen neuen Schlüssel.",
+    "bullet1": "24/7 Notdienst in München & Umland",
+    "bullet2": "Beschädigungsfreie Autoöffnung aller Marken",
+    "bullet3": "Ersatzschlüssel & Transponder-Programmierung vor Ort",
+    "bullet4": "Transparente Festpreise ohne versteckte Kosten",
+    "ctaCall": "Sofort anrufen",
+    "ctaCallHint": "Direkte Verbindung zum Notdienst-Techniker",
+    "ctaRequest": "Rückruf anfordern",
+    "meta": {
+      "time": "Reaktionszeit: meist 20–40 Minuten in München",
+      "area": "Einsatzgebiet: München & Umgebung"
+    },
+    "form": {
+      "title": "Schnelle Anfrage per Formular",
+      "text": "Beschreiben Sie kurz Ihr Problem – wir melden uns in wenigen Minuten mit einem verbindlichen Preis und einer Ankunftszeit."
+    }
+  },
+  "form": {
+    "name": "Name",
+    "phone": "Telefonnummer",
+    "email": "E‑Mail",
+    "location": "Standort in München",
+    "car": "Fahrzeug (Marke/Modell/Baujahr)",
+    "problem": "Was ist passiert?",
+    "message": "Ihre Nachricht",
+    "time": "Bevorzugte Rückrufzeit",
+    "submit": "Preis & Anfahrtszeit anfragen",
+    "note": "Durch Anklicken senden Sie uns Ihre Anfrage per E‑Mail/WhatsApp. Wir rufen Sie zurück oder schreiben Ihnen eine Nachricht."
+  },
+  "services": {
+    "title": "Unsere Leistungen rund um Autoschlüssel",
+    "subtitle": "Wir sind spezialisiert auf die professionelle Öffnung von Fahrzeugen sowie auf das Nachmachen, Reparieren und Programmieren moderner Autoschlüssel – inklusive Transponder, Funkfernbedienung und Keyless-Systemen.",
+    "emergency": {
+      "title": "24/7 Notöffnung von Fahrzeugen",
+      "text": "Sie haben sich aus Ihrem Auto ausgesperrt, der Schlüssel steckt innen oder liegt im Kofferraum? Wir öffnen Ihr Fahrzeug in den meisten Fällen innerhalb weniger Minuten und in über 90 % der Einsätze vollständig beschädigungsfrei – unabhängig von Marke, Baujahr und Schloss-System.",
+      "li1": "Beschädigungsfreie Öffnung zugefallener und verriegelter Autotüren",
+      "li2": "Spezialwerkzeug statt rohe Gewalt – kein Aufbrechen von Türen",
+      "li3": "Auch bei zugefrorenen Schlössern oder defekter Zentralverriegelung"
+    },
+    "duplication": {
+      "title": "Ersatzschlüssel & Nachmachen von Autoschlüsseln",
+      "text": "Sie möchten einen zweiten Autoschlüssel, weil Sie nur noch ein Exemplar besitzen oder das Fahrzeug in der Familie geteilt wird? Wir fertigen mechanische Rohlinge und codieren elektronische Komponenten direkt vor Ort oder in unserer Werkstatt – oft deutlich günstiger als beim Vertragshändler.",
+      "li1": "Nachmachen von Standard- und Klappschlüsseln",
+      "li2": "Programmierung von Transpondern und Wegfahrsperren",
+      "li3": "Optional Programmierung der Funkfernbedienung"
+    },
+    "programming": {
+      "title": "Transponder- & Keyless‑Go‑Programmierung",
+      "text": "Moderne Fahrzeuge sind mit komplexen Wegfahrsperren und Keyless‑Go‑Systemen ausgestattet. Wir lesen die relevanten Daten aus, programmieren neue oder gebrauchte Schlüsselträger und synchronisieren sie mit dem Steuergerät Ihres Fahrzeugs, damit Sie das Auto wieder wie gewohnt starten können.",
+      "li1": "Codierung von Transponderchips",
+      "li2": "Anlernen von Funk- und Keyless‑Go‑Schlüsseln",
+      "li3": "Löschen verlorener Schlüssel aus dem System (soweit möglich)"
+    },
+    "repair": {
+      "title": "Reparatur defekter Autoschlüssel & Zündschlösser",
+      "text": "Nicht jeder defekte Autoschlüssel muss sofort komplett ersetzt werden. Häufig lassen sich Gehäuse, Taster und Elektronik instand setzen. Auch bei hakenden oder blockierten Zündschlössern prüfen wir, ob eine Reparatur möglich ist, bevor über einen Austausch entschieden wird.",
+      "li1": "Instandsetzung von Gehäuse, Knöpfen und Lötstellen",
+      "li2": "Reparatur oder Austausch von Zündschlössern",
+      "li3": "Beratung, ob Reparatur oder Neuanfertigung wirtschaftlicher ist"
+    }
+  },
+  "why": {
+    "title": "Warum AutoKluchi PRO in München?",
+    "subtitle": "In Notfallsituationen zählt jede Minute – gleichzeitig möchten Sie keinen überteuerten oder unseriösen Dienst beauftragen. Wir kombinieren schnelle Reaktionszeiten mit transparenten Preisen und sauberer, dokumentierter Arbeit.",
+    "b1": {
+      "title": "Schnelle Anfahrt & echte 24/7‑Bereitschaft",
+      "text": "Unser Notdienst ist rund um die Uhr erreichbar – auch nachts, an Wochenenden und Feiertagen. In der Regel sind wir im Stadtgebiet München in 20–40 Minuten bei Ihnen vor Ort, im Umland nur wenig später. Während Sie noch telefonieren, machen wir uns bereits auf den Weg."
+    },
+    "b2": {
+      "title": "Transparente Festpreise ohne Lockangebote",
+      "text": "Sie erfahren vor Auftragserteilung einen verbindlichen Gesamtpreis, der Anfahrt, Öffnung und alle vereinbarten Leistungen umfasst. Es gibt keine versteckten Zuschläge vor Ort. So behalten Sie die volle Kostenkontrolle – noch bevor wir Ihr Fahrzeug öffnen."
+    },
+    "b3": {
+      "title": "Spezialisierung auf Fahrzeuge",
+      "text": "Im Gegensatz zu allgemeinen Schlüsseldiensten konzentrieren wir uns auf Autoschlüssel und Fahrzeugtechnik. Unsere Techniker kennen die Besonderheiten moderner Wegfahrsperren, elektronischer Lenkradschlösser und Keyless-Systeme verschiedenster Hersteller – von Kleinwagen bis Premiumklasse."
+    },
+    "b4": {
+      "title": "Dokumentation & Seriösität",
+      "text": "Vor der Öffnung prüfen wir die Berechtigung (z. B. Ausweis und Fahrzeugschein), dokumentieren den Einsatz und stellen Ihnen auf Wunsch eine Rechnung mit ausgewiesener Mehrwertsteuer aus. Damit sind Sie auch gegenüber Versicherung und Leasinggeber auf der sicheren Seite."
+    }
+  },
+  "process": {
+    "title": "So läuft ein Einsatz ab",
+    "subtitle": "Unser Ziel ist es, Stress aus Ihrer Notsituation zu nehmen. Vom ersten Anruf bis zur geöffneten Tür oder zum fertigen Ersatzschlüssel folgen wir einem klaren, transparenten Ablauf.",
+    "s1": {
+      "title": "1. Kontaktaufnahme",
+      "text": "Sie rufen uns an oder senden eine Anfrage über das Formular. Teilen Sie uns Ihren Standort, Fahrzeugtyp und kurz den Sachverhalt mit (z. B. Schlüssel im Auto, komplett verloren, Zündschloss defekt). Je genauer Ihre Angaben sind, desto präziser können wir den Preis und die Anfahrtszeit nennen."
+    },
+    "s2": {
+      "title": "2. Verbindliches Angebot",
+      "text": "Nach wenigen Rückfragen erhalten Sie einen verbindlichen Festpreis inklusive aller Kosten sowie eine realistische Einschätzung der Ankunftszeit. Erst wenn Sie ausdrücklich zustimmen, wird der Auftrag angenommen – es entstehen keine Kosten für eine reine Preisanfrage."
+    },
+    "s3": {
+      "title": "3. Anfahrt & Identitätsprüfung",
+      "text": "Unser Techniker macht sich sofort auf den Weg. Vor Ort prüft er Ihre Ausweisdokumente und die Zugehörigkeit zum Fahrzeug. Diese Sicherheitsmaßnahme schützt sowohl Sie als auch Dritte und ist bei seriösen Diensten selbstverständlich."
+    },
+    "s4": {
+      "title": "4. Öffnung & ggf. Schlüsselanfertigung",
+      "text": "Wir öffnen Ihr Fahrzeug mit speziellem Werkzeug und technischen Verfahren, ohne Lack und Dichtungen zu beschädigen. Falls gewünscht, fertigen oder programmieren wir im Anschluss direkt einen neuen Schlüssel, damit Sie nicht erneut in eine ähnliche Situation geraten."
+    },
+    "s5": {
+      "title": "5. Bezahlung & Dokumentation",
+      "text": "Sie zahlen den vereinbarten Festpreis bequem in bar, per Karte oder – nach vorheriger Absprache – per Rechnung. Sie erhalten eine detaillierte Leistungsübersicht, die Sie bei Bedarf Ihrer Versicherung oder Ihrem Arbeitgeber vorlegen können."
+    }
+  },
+  "prices": {
+    "title": "Faire, nachvollziehbare Preise",
+    "subtitle": "Jede Situation ist anders – dennoch arbeiten wir mit klaren Preisrahmen. Sie kennen Ihren Endpreis immer vorab. Nacht-, Wochenend- und Feiertagszuschläge kommunizieren wir transparent am Telefon.",
+    "p1": {
+      "title": "Autoöffnung im Stadtgebiet München",
+      "value": "ab 89 € inkl. Anfahrt",
+      "text": "Für zugefallene oder verriegelte Fahrzeugtüren bei normalem Schwierigkeitsgrad im Stadtgebiet München. Der genaue Preis richtet sich nach Fahrzeugtyp, Uhrzeit und Entfernung."
+    },
+    "p2": {
+      "title": "Ersatzschlüssel mit Transponder",
+      "value": "ab 149 €",
+      "text": "Inklusive Fräsen des Schlüssels und Programmierung der Wegfahrsperre. Funk- oder Keyless‑Go‑Funktionen können je nach Modell zusätzlich programmiert werden."
+    },
+    "p3": {
+      "title": "Kompletter Schlüsselverlust",
+      "value": "Preis auf Anfrage",
+      "text": "Bei komplettem Verlust aller Schlüssel ist der Aufwand deutlich höher. Wir erstellen Ihnen ein individuelles Angebot, das alle Schritte von der Öffnung bis zur Neuprogrammierung abdeckt."
+    },
+    "note": "Hinweis: Viele Kasko‑ oder Teilkasko‑Versicherungen übernehmen je nach Vertrag einen Teil der Kosten für Schlüsselverlust oder Fahrzeugöffnung. Auf Wunsch unterstützen wir Sie mit einer detaillierten Einsatzdokumentation."
+  },
+  "slider": {
+    "title": "Typische Situationen, in denen wir helfen",
+    "subtitle": "Aus der Praxis kennen wir zahlreiche Alltagssituationen, in denen Autobesitzer plötzlich nicht mehr an ihr Fahrzeug kommen. In all diesen Fällen sind wir regelmäßig im Einsatz.",
+    "s1": "Schlüssel im Kofferraum eingeschlossen – besonders häufig nach dem Beladen von Einkaufstüten oder Reisegepäck.",
+    "s2": "Fahrzeug verriegelt sich automatisch, während der Motor läuft und der Schlüssel im Innenraum steckt.",
+    "s3": "Schlüssel fällt in den Gully oder geht beim Spaziergang im Park verloren – der Wagen steht kilometerweit entfernt.",
+    "s4": "Elektronik des Keyless‑Go‑Schlüssels fällt plötzlich aus, das Auto reagiert nicht mehr auf das Signal.",
+    "s5": "Abgebrochener Schlüssel im Türschloss oder Zündschloss, das Fahrzeug lässt sich nicht mehr starten."
+  },
+  "faq": {
+    "title": "Häufige Fragen zu Autoöffnung & Autoschlüsseln",
+    "subtitle": "Transparenz ist uns wichtig. Deshalb beantworten wir häufige Fragen so ausführlich, dass Sie unser Vorgehen und unsere Preise nachvollziehen können – noch bevor Sie uns beauftragen.",
+    "q1": {
+      "q": "Kann mein Auto wirklich beschädigungsfrei geöffnet werden?",
+      "a": "In der großen Mehrzahl der Einsätze öffnen wir Fahrzeuge vollständig beschädigungsfrei. Wir arbeiten mit Spezialwerkzeug, das gezielt an Verriegelung und Mechanik ansetzt, ohne Lack, Dichtungen oder Scheiben zu beeinträchtigen. Bei sehr alten, stark beschädigten oder nachgerüsteten Schlössern kann es Ausnahmen geben – diese sprechen wir vor Beginn der Arbeiten mit Ihnen durch, damit Sie nicht überrascht werden."
+    },
+    "q2": {
+      "q": "Welche Unterlagen muss ich vorlegen?",
+      "a": "Vor der Öffnung müssen wir prüfen, ob Sie berechtigt sind, das Fahrzeug öffnen zu lassen. In der Praxis genügt ein gültiger Ausweis in Kombination mit dem Fahrzeugschein. Wenn sich die Papiere im Fahrzeug befinden, öffnen wir zunächst das Auto und kontrollieren im Anschluss die Dokumente. Diese Vorgehensweise ist Standard bei seriösen Autoschlüssel-Notdiensten."
+    },
+    "q3": {
+      "q": "Wie setzen sich die Kosten zusammen?",
+      "a": "Der Gesamtpreis ergibt sich aus Anfahrt, Arbeitszeit und dem Schwierigkeitsgrad der Öffnung sowie ggf. Material- und Programmierkosten für neue Schlüssel. Nacht‑, Wochenend- und Feiertagszuschläge berechnen wir nur, wenn der Einsatz tatsächlich in diesen Zeiten stattfindet. Sie erhalten vorab ein Gesamtangebot, das alle diese Faktoren berücksichtigt, damit Sie Ihre Entscheidung in Ruhe treffen können."
+    },
+    "q4": {
+      "q": "Können Sie jeden Fahrzeugtyp öffnen?",
+      "a": "Wir arbeiten täglich mit einer großen Bandbreite an Fahrzeugen – vom Kleinwagen über Transporter bis hin zu Premiumfahrzeugen deutscher und internationaler Hersteller. Bei sehr seltenen Importmodellen oder Spezialumbauten prüfen wir vorab, ob wir das passende Werkzeug und Know‑how mitbringen. In den meisten Fällen können wir jedoch auch diese Fahrzeuge sicher öffnen."
+    },
+    "q5": {
+      "q": "Übernimmt meine Versicherung die Kosten?",
+      "a": "Viele Teilkasko‑ oder Kasko‑Tarife sehen eine Beteiligung an Kosten für Schlüsselverlust oder Fahrzeugöffnung vor. Die genauen Bedingungen hängen von Ihrem Vertrag ab. Sie erhalten von uns eine detaillierte Rechnung, die Sie bei Ihrer Versicherung einreichen können. Gerne unterstützen wir Sie dabei, die relevanten Positionen verständlich zu dokumentieren."
+    }
+  },
+  "contact": {
+    "title": "Kontakt & Einsatzgebiet",
+    "subtitle": "Egal ob Sie gerade in der Münchner Innenstadt, am Stadtrand oder auf der Durchreise sind – rufen Sie uns an. Wir sagen Ihnen sofort, wie schnell wir vor Ort sein können.",
+    "phoneTitle": "24/7 Notrufnummer",
+    "phoneText": "Bitte halten Sie Ihr Kennzeichen, den genauen Standort und eine kurze Beschreibung des Problems bereit. So können wir Ihre Anfrage sofort zuordnen.",
+    "areaTitle": "Einsatzgebiet München & Region",
+    "areaText": "Wir sind im gesamten Stadtgebiet München sowie im Umland unterwegs, z. B. in Garching, Unterschleißheim, Dachau, Germering, Grünwald, Ottobrunn und weiteren Orten. Fragen Sie einfach an – wir sagen Ihnen, ob wir Ihren Standort kurzfristig bedienen können.",
+    "formTitle": "Schreiben Sie uns eine Nachricht",
+    "submit": "Nachricht senden",
+    "note": "Wir melden uns in der Regel innerhalb kurzer Zeit, bei Notfällen rufen Sie bitte immer direkt an."
+  },
+  "modal": {
+    "title": "Rückruf anfordern",
+    "text": "Hinterlassen Sie Ihre Kontaktdaten, wir rufen Sie so schnell wie möglich zurück – bei Notfällen in der Regel innerhalb weniger Minuten.",
+    "submit": "Rückruf anfordern"
+  },
+  "footer": {
+    "text": "Ihr spezialisierter Partner für Autoöffnung, Ersatzschlüssel und Autoschlüssel-Programmierung in München. Rund um die Uhr für Sie im Einsatz – zuverlässig, transparent und mit Blick für Details.",
+    "linksTitle": "Schnellzugriff",
+    "legalTitle": "Rechtliches",
+    "imprint": "Impressum",
+    "privacy": "Datenschutzerklärung",
+    "madeIn": "Autoschlüssel-Notdienst in München"
+  }
+}
